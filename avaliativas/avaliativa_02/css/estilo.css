@@ -1,0 +1,38 @@
+body
+{
+	background-color: #ecf0f5;
+	font-family: sans-serif;
+	Color: #34495e;
+	font-size: 16px;
+}
+
+p
+{
+	color: #27ae60;
+}
+
+a
+{
+	color: #e74c3c;
+}
+
+ul
+{
+	display: inline;
+	padding: 4px;
+	background-color: none;
+
+}
+
+/*  errado
+h1 h2 h3 h4 
+{
+	font-family: serif;
+}
+*/
+
+/*Certo: Do h1 ao h4*/
+
+h1 : h4{
+	font-family: serif;
+}
